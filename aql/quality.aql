@@ -1,0 +1,7 @@
+items.find(
+    {
+        "@qa.code.quality.coverage": {"$gte" : "''' + '0.8' + '''"}
+    }
+)
+
+

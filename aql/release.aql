@@ -1,0 +1,6 @@
+items.find(
+    {
+        "@build.stat": {"$eq": "release"},
+        "name": {"$match": "*.war"}
+    }
+)

@@ -1,0 +1,10 @@
+items.find(
+	{
+		"@qa":{"$eq":"done"},
+		"$and":
+            [
+                 {"@os":{"$eq":"linux"}},
+                 {"@os":{"$eq":"win"}}
+            ]
+	}
+)

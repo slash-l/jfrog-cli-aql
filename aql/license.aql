@@ -1,0 +1,6 @@
+items.find(
+    {
+        "@artifactory.licenses": {"$match": "*Apache*"},
+        "name": {"$match": "*.war"}
+    }
+)

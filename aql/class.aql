@@ -1,0 +1,7 @@
+items.find(
+    {
+        "repo": {"$eq": "slash-maven-release-local"},
+        "archive.entry.name": {"$eq": "App.class"},
+        "name": {"$match": "*.jar"}
+    }
+).include("*","archive.entry.name")
